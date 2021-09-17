@@ -1,0 +1,44 @@
+.TimerView {
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin: 2rem;
+    border: 6px double black;
+    padding: 1rem;
+}
+
+.TimerView > h1 {
+	flex: 1;
+	margin: 1rem;
+	text-align: left;
+	font-variant-numeric: tabular-nums;
+}
+
+.TimerView > h2 {
+	flex: 1;
+}
+
+.TimerView .Actions {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.TimerView .Actions > button {
+	padding: 0.75rem;
+	border: 1px double #000;
+	background-color: #000;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 1rem;
+}
+
+.TimerView .Actions > button:hover {
+	cursor: pointer;
+	background: #444;
+	border: 1px double #444;
+}
